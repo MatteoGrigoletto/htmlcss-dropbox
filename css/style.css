@@ -28,23 +28,24 @@ ul li a, ul li{
     max-width: 1000px;
     margin: auto;
 }
-.box-header{
-    width: calc(100% - 820px); 
+.box-text{
+    width: calc(30% - 20px); 
     margin: 0px 10px;
     font-size: 16px;
 }
-.box-header > * {
+.box-text > * {
     padding-bottom: 40px;
 }
-.box-header i{
+.box-text i{
     font-size: 50px;
 }
 .box-img{
-    width: calc(100% - 420px);
+    width: calc(70% - 20px);
     margin: 0px 10px;
 }
 img{
     width: 100%;
+    display: block;
   
 }
 .img-header{
@@ -103,7 +104,7 @@ button{
     border: none;
     color: white;
 }
-/* MAIN */
+/* MAIN FIRST PART*/
 
 .check-box{
     padding: 70px 0px 50px;
@@ -156,3 +157,20 @@ button{
     width: 33%;
    text-align: end;
 }
+/* MAIN SECOND PART */
+main .box-text{
+   margin-left: 0px;
+   padding: 60px 0px 0px 0px;
+   margin-right: 0px;
+    
+}
+main .box-img{
+    padding-right: 60px;
+    margin-left: 0px;
+}
+main .box-text button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+/* TIRD PART */
