@@ -53,6 +53,9 @@ img{
     position: relative;
     bottom: -60px;
 }
+section:not(first-child){
+    padding-top: 150px;
+}
 /* typo */
 h1,h2,h3,h4,h6{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
@@ -72,7 +75,7 @@ h5{
 }
 
 /* HEADER */
-header{
+header,.free-trial{
     background-color: #b4d0e7;
 }
 .banner{
@@ -93,11 +96,6 @@ header{
     justify-content: flex-end;
 }
 
-/* BOTTOM-HEADER */
-.section-space{
-    padding-top: 150px;
-}
-
 /* BUTTON */
 button{
     background-color: #0061ff;
@@ -105,7 +103,7 @@ button{
     border: none;
     color: white;
 }
-/* MAIN FIRST PART*/
+/* MAIN FIRST SESSION*/
 
 .check-box{
     padding: 70px 0px 50px;
@@ -151,15 +149,15 @@ button{
     padding-top: 40px;
 }
 .big-orizzontal-main-box > *{
-    padding-bottom: 20px;
+    padding-bottom:20px;
 }
 
 .small-orizzontal-main-box{
     width: 33%;
    text-align: end;
 }
-/* MAIN SECOND PART */
-main .box-text{
+/* MAIN SECOND SESSION */
+.second-session .box-text{
    margin-left: 0px;
    padding: 60px 0px 0px 0px;
    margin-right: 0px;
@@ -174,11 +172,75 @@ main .box-text button{
     color: black;
     border: 1px solid black;
 }
-/* TIRD PART */
-main .vertical-main-box div > *{
-    padding-bottom: 30px;
-}
-main .vertical-main-box{
+/* MAIN TIRD SESSION */
+
+.tird-session .vertical-main-box{
     border: none;
-    padding-top:40px ;
+    padding:40px 0px 30px ;
+}
+/* MAIN FOURTH SESSION */
+.fourth-session .information h2{
+    padding-bottom: 70px;
+}
+/* MAIN FIFTH SESSION */
+.column-partner{
+    width: calc(100vw / 3 - 6px);
+
+}
+.box-partner{
+    width: 16.5vw;
+    height: 16.5vw;
+}
+.box-partner img{
+   height: 100%;
+   padding: 0px 80px;
+}
+
+/* PARTNER PRIMA E TERZA COLONNA */
+.designit{
+    background-color: #a2d39b ;
+    border:15px solid #d1e9cd;
+}
+.arizona{
+    background-color: #61082b;  
+}
+.florida{
+    background-color: #0093ce;    
+}
+.fix-padding{
+    padding: 140px 80px !important;
+}
+.topps{
+    background-color: #ff1c1c ;
+}
+.world-bicycle{
+    background-color: red;
+}
+.hearst{
+    background-color: #b4d0e7;
+}
+.lonely{
+    background-color: #0d2481;
+}
+.clear-channel{
+    background-color: #ffd830;
+}
+
+/* SECONDA COLONNA */
+.second-column div{
+    width: 270px;
+    padding-bottom: 100px ;
+}
+.second-column{
+    padding: 50px;
+}
+.free-trial button{
+    align-items: flex-start ;
+}
+.free-trial > div{
+    padding: 130px 0px;
+}
+.free-trial h4{
+    color: #61082b ;
+    font-size: 30px;
 }
