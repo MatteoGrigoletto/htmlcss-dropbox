@@ -8,7 +8,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-ul li a, ul li{
+header ul li a,main ul li {
   text-decoration: none;
   list-style: none;
   color:black;
@@ -66,12 +66,18 @@ h1{
 h2{
     font-size: 40px; 
 }
+h3{
+    font-size: 24px;
+}
 h4{
     display: inline-block;
     font-size: 22px;
 }
 h5{
     font-weight: lighter;
+}
+.sixth-session p{
+    font-weight: bold;
 }
 
 /* HEADER */
@@ -234,13 +240,61 @@ main .box-text button{
 .second-column{
     padding: 50px;
 }
+/* FREE TRIAL */
 .free-trial button{
     align-items: flex-start ;
 }
 .free-trial > div{
     padding: 130px 0px;
 }
-.free-trial h4{
+.free-trial h2{
     color: #61082b ;
-    font-size: 30px;
+}
+/* SIXTH SESSION */
+.sixth-session h2{
+    padding-bottom: 60px;
+
+}
+.sixth-session div p a{
+    text-decoration: none;
+    color:black;
+}
+.fqa-box{
+    padding: 25px 0px;
+    border: 1px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.sixth-session i{
+   position: absolute;
+   right: 40px;
+}
+.sixth-session > div:last-child{
+    padding-bottom:120px ;
+}
+/* FOOTER */
+footer{
+    background-color: black;
+}
+footer h3{
+    padding-bottom: 30px;
+}
+.footer-column{
+    width: calc(100% / 5 - 20px);
+    color: white;
+    margin: 10px;
+}
+footer .flex{
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer div ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer div ul li{
+    list-style-type: none;   
+    padding: 10px 0px;
 }
