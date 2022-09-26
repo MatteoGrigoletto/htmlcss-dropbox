@@ -16,6 +16,7 @@ ul li a, ul li{
 }
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 .center{
     align-items: center;
@@ -174,3 +175,10 @@ main .box-text button{
     border: 1px solid black;
 }
 /* TIRD PART */
+main .vertical-main-box div > *{
+    padding-bottom: 30px;
+}
+main .vertical-main-box{
+    border: none;
+    padding-top:40px ;
+}
