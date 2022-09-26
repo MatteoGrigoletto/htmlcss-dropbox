@@ -52,7 +52,7 @@ img{
     bottom: -60px;
 }
 /* typo */
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h6{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 h1{
@@ -60,6 +60,13 @@ h1{
 }
 h2{
     font-size: 40px; 
+}
+h4{
+    display: inline-block;
+    font-size: 22px;
+}
+h5{
+    font-weight: lighter;
 }
 
 /* HEADER */
@@ -72,6 +79,7 @@ header{
     padding: 0px 15px;
     width: 100%;
     height: 80px;
+    z-index: 100;
 }
 .container-banner{
     width: 50%;
@@ -100,11 +108,51 @@ button{
 .check-box{
     padding: 70px 0px 50px;
 }
-.main-box{
+.vertical-main-box{
     width: calc(100%  / 3 - 30px);
     margin: 15px;
-    background-color: lightblue;
+    background-color: white;
+    padding: 0px 20px;
+    border: 1px solid lightgray;
 }
 .main-structure{
     justify-content: space-between;
+}
+.price{
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0px;
+}
+.price-information small{
+ display: block;
+}
+.price-information > div{
+    padding: 30px 0px;
+    font-size: 16px;
+}
+.price-information div > p{
+    padding: 30px 0px;
+}
+.orizzontal-main-box{
+    width: 100%;
+    border: 1px solid lightgrey;
+}
+.contacts{
+    padding: 25px;   
+    
+}
+.big-orizzontal-main-box{
+    width: 67%;  
+}
+.big-orizzontal-main-box div {
+    padding-top: 40px;
+}
+.big-orizzontal-main-box > *{
+    padding-bottom: 20px;
+}
+
+.small-orizzontal-main-box{
+    width: 33%;
+   text-align: end;
 }
