@@ -34,6 +34,16 @@ footer .footer-column li:hover {
     transition: 0.5s;
     font-weight: bold;
 }
+.first-session .box-33:hover , .orizzontal-box:hover{
+    transform: scale(1.05);
+    border: 1px solid lightgray;
+    transition: 2s;
+    background-color: rgba(180, 208, 231, 0.5);
+}
+.first-session .box-33:hover .offer, .orizzontal-box:hover .offer {
+    background-color: rgba(180, 208, 231, 1);
+    transition: 2s;
+}
 
 /* ANIMAZIONI */
 
