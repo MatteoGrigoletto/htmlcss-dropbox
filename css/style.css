@@ -8,18 +8,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
-header ul li a{
-  text-decoration: none;
-  list-style: none;
-  color:black;
-  padding: 10px;
-}
-.first-session ul li{
-    text-decoration: none;
-    list-style-type: none;
-    color:black;
-    padding-bottom: 15px ;
-}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -27,6 +16,14 @@ header ul li a{
 .center{
     align-items: center;
 }
+img{
+    width: 100%;
+    display: block;
+}
+section:not(first-child){
+    padding-top: 150px;
+}
+/* CONTAINER */
 .big-container{
     max-width: 1200px ;
     margin: auto;
@@ -35,31 +32,25 @@ header ul li a{
     max-width: 1000px;
     margin: auto;
 }
-.box-text{
+.container-banner{
+    width: 50%;
+}
+/* BOX-MULTI USE */
+.box-30{
     width: calc(30% - 20px); 
     margin: 0px 10px;
     font-size: 16px;
 }
-.box-text > * {
-    padding-bottom: 40px;
-}
-.box-text i{
-    font-size: 50px;
-}
-.box-img{
+.box-70{
     width: calc(70% - 20px);
     margin: 0px 10px;
 }
-img{
-    width: 100%;
-    display: block;
+/* RULES BOX 30 */
+.box-30 > * {
+    padding-bottom: 40px;
 }
-.img-header{
-    position: relative;
-    bottom: -60px;
-}
-section:not(first-child){
-    padding-top: 150px;
+.box-30 i{
+    font-size: 50px;
 }
 /* typo */
 h1,h2,h3,h4,h6{
@@ -81,15 +72,17 @@ h4{
 h5{
     font-weight: lighter;
 }
-.sixth-session p{
-    font-weight: bold;
-}
-.first-session h6{
-    font-size: 18px;
-    padding: 30px 0px;
-}
-
 /* HEADER */
+.img-header{
+    position: relative;
+    bottom: -60px;
+}
+header ul li a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+    padding: 10px;
+}
 header,.free-trial{
     background-color: #b4d0e7;
 }
@@ -101,16 +94,12 @@ header,.free-trial{
     height: 80px;
     z-index: 100;
 }
-.container-banner{
-    width: 50%;
-}
 .left-banner{
     justify-content: flex-start;
 }
 .right-banner{
     justify-content: flex-end;
 }
-
 /* BUTTON */
 button{
     background-color: #0061ff;
@@ -119,8 +108,18 @@ button{
     color: white;
 }
 /* MAIN FIRST SESSION*/
+.first-session ul li{
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+    padding-bottom: 15px ;
+}
+.first-session h6{
+    font-size: 18px;
+    padding: 30px 0px;
+}
 .first-session span{
-    margin-left: -18px;
+    margin-left: -18px;  
 }
 .check-box{
     padding: 70px 0px 50px;
@@ -176,18 +175,22 @@ button{
     width: 33%;
    text-align: end;
 }
+#down-arrow{
+    color: #6b6dff ;
+
+}
 /* MAIN SECOND SESSION */
-.second-session .box-text{
+.second-session .box-30{
    margin-left: 0px;
    padding: 60px 0px 0px 0px;
    margin-right: 0px;
     
 }
-main .box-img{
+main .box-70{
     padding-right: 60px;
     margin-left: 0px;
 }
-main .box-text button{
+main .box-30 button{
     background-color: white;
     color: black;
     border: 1px solid black;
@@ -271,6 +274,9 @@ main .box-text button{
     color: #61082b ;
 }
 /* SIXTH SESSION */
+.sixth-session p{
+    font-weight: bold;
+}
 .sixth-session h2{
     padding-bottom: 60px;
 
