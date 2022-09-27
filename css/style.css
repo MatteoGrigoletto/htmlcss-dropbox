@@ -1,10 +1,13 @@
 /*RESET */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 /* GENERAL */
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -23,7 +26,9 @@ img{
 section:not(first-child){
     padding-top: 150px;
 }
+
 /* CONTAINER */
+
 .big-container{
     max-width: 1200px ;
     margin: auto;
@@ -35,7 +40,9 @@ section:not(first-child){
 .container-banner{
     width: 50%;
 }
+
 /* BOX-MULTI USE */
+
 .box-30{
     width: calc(30% - 20px); 
     margin: 0px 10px;
@@ -45,14 +52,29 @@ section:not(first-child){
     width: calc(70% - 20px);
     margin: 0px 10px;
 }
+.box-33{
+    width: calc(100%  / 3 - 20px);
+    margin: 10px;
+}
+.box-67{
+    width: 67%;  
+}
+.orizzontal-33{
+    width: 33%;
+    
+}
+
 /* RULES BOX 30 */
+
 .box-30 > * {
     padding-bottom: 40px;
 }
 .box-30 i{
     font-size: 50px;
 }
-/* typo */
+
+/* TYPO */
+
 h1,h2,h3,h4,h6{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
@@ -72,7 +94,9 @@ h4{
 h5{
     font-weight: lighter;
 }
+
 /* HEADER */
+
 .img-header{
     position: relative;
     bottom: -60px;
@@ -100,14 +124,18 @@ header,.free-trial{
 .right-banner{
     justify-content: flex-end;
 }
+
 /* BUTTON */
+
 button{
     background-color: #0061ff;
     padding: 10px 15px;
     border: none;
     color: white;
 }
+
 /* MAIN FIRST SESSION*/
+
 .first-session ul li{
     text-decoration: none;
     list-style-type: none;
@@ -124,67 +152,59 @@ button{
 .check-box{
     padding: 70px 0px 50px;
 }
-.vertical-main-box{
-    width: calc(100%  / 3 - 20px);
-    margin: 10px;
-    background-color: white;
-    border: 1px solid lightgray;
-}
 .main-structure{
     justify-content: space-between;
 }
-.price{
+.first-session .box-33{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+.offer{
     text-align: center;
     font-size: 16px;
     border-bottom: 1px solid lightgray;
     padding: 10px 0px;
 }
-.price-information{
+.offer-information{
     padding: 20px 40px;
 }
-.price-information small{
+.offer-information small{
  display: block;
 }
-.price-information > div{
+.offer-information > div{
     padding: 30px 0px;
     font-size: 16px;
 }
-.price-information div > p{
+.offer-information div > p{
     padding: 30px 0px;
 }
-.orizzontal-main-box{
+.orizzontal-box{
     width: 100%;
     border: 1px solid lightgrey;
     margin-top: 20px;
 }
 .contacts{
-    padding: 25px;   
-    
+    padding: 25px;      
 }
-.big-orizzontal-main-box{
-    width: 67%;  
-}
-.big-orizzontal-main-box div {
+.box-67 div {
     padding-top: 40px;
 }
-.big-orizzontal-main-box > *{
+.box-67 > *{
     padding-bottom:20px;
-}
-
-.small-orizzontal-main-box{
-    width: 33%;
-   text-align: end;
 }
 #down-arrow{
     color: #6b6dff ;
-
 }
+.orizzontal-box .orizzontal-33{
+    text-align: end;
+}
+
 /* MAIN SECOND SESSION */
+
 .second-session .box-30{
    margin-left: 0px;
    padding: 60px 0px 0px 0px;
-   margin-right: 0px;
-    
+   margin-right: 0px; 
 }
 main .box-70{
     padding-right: 60px;
@@ -195,17 +215,22 @@ main .box-30 button{
     color: black;
     border: 1px solid black;
 }
+
 /* MAIN TIRD SESSION */
 
-.tird-session .vertical-main-box{
+.tird-session .box-33{
     border: none;
     padding:40px 0px 30px ;
 }
+
 /* MAIN FOURTH SESSION */
+
 .fourth-session .information h2{
     padding-bottom: 70px;
 }
+
 /* MAIN FIFTH SESSION */
+
 .column-partner{
     width: calc(100vw / 3 - 6px);
     height: calc(100vw / 3);
@@ -220,6 +245,7 @@ main .box-30 button{
 }
 
 /* PARTNER PRIMA E TERZA COLONNA */
+
 .designit{
     background-color: #a2d39b ;
     border:15px solid #d1e9cd;
@@ -231,7 +257,7 @@ main .box-30 button{
     background-color: #0093ce;    
 }
 .fix-padding{
-   padding: 140px 80px !important;
+   padding: 140px 80px !important;  /*Forzatura a causa dell'immagine*/
 }
 .topps{
     background-color: #ff1c1c ;
@@ -250,6 +276,7 @@ main .box-30 button{
 }
 
 /* SECONDA COLONNA */
+
 .second-column div{
     width: calc(100% - 66vw);
     padding-bottom: 100px ;
@@ -263,7 +290,9 @@ main .box-30 button{
 .logo{
     width: 180px;
 }
+
 /* FREE TRIAL */
+
 .free-trial button{
     align-items: flex-start ;
 }
@@ -273,7 +302,9 @@ main .box-30 button{
 .free-trial h2{
     color: #61082b ;
 }
+
 /* SIXTH SESSION */
+
 .sixth-session p{
     font-weight: bold;
 }
@@ -299,7 +330,9 @@ main .box-30 button{
 .sixth-session > div:last-child{
     padding-bottom:120px ;
 }
+
 /* FOOTER */
+
 footer{
     background-color: black;
 }
@@ -324,7 +357,9 @@ footer div ul li{
     list-style-type: none;   
     padding: 10px 0px;
 }
+
 /* BOTTOM-FOOTER */
+
 .bottom-footer{
     padding: 30px 0px;
     border-top: 1px solid white;
