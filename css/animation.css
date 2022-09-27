@@ -14,11 +14,12 @@ header .box-70:active{
     transform: scale(1.01);
     border: 1px solid black;
     animation: rotate 1.5s linear ;
+    border-radius: 20%;
 }
 .fifth-session .scroll:hover{
     transform: scale(1.1);
     border: 2px solid black;
-    
+    border-radius: 10%;
 }
 .banner li >*:hover {
     transform: scale(1.1);
