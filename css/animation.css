@@ -8,6 +8,7 @@ button:hover{
 }
 header .box-70:active{
     transform: scale(1.5);
+    transition: 1s;
 }
 .fifth-session .box-partner:hover{
     transform: scale(1.01);
@@ -19,8 +20,19 @@ header .box-70:active{
     border: 2px solid black;
     background-color: lightgray;
 }
-
-
+.banner li >*:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight:bolder;
+}
+.tird-session .box-33:hover{
+    transform: scale(1.1);
+}
+footer .footer-column li:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold;
+}
 
 /* ANIMAZIONI */
 

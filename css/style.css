@@ -39,6 +39,7 @@ section:not(first-child){
 }
 .container-banner{
     width: 50%;
+    height: 100%;
 }
 
 /* BOX-MULTI USE */
@@ -60,8 +61,7 @@ section:not(first-child){
     width: 67%;  
 }
 .orizzontal-33{
-    width: 33%;
-    
+    width: 33%; 
 }
 
 /* RULES BOX 30 */
@@ -119,7 +119,7 @@ header,.free-trial{
     z-index: 100;
 }
 .left-banner{
-    justify-content: flex-start;
+    justify-content: flex-start; 
 }
 .right-banner{
     justify-content: flex-end;
@@ -176,7 +176,7 @@ button{
     font-size: 16px;
 }
 .offer-information div > p{
-    padding: 30px 0px;
+    padding-top: 30px;
 }
 .orizzontal-box{
     width: 100%;
@@ -201,6 +201,13 @@ button{
 }
 .first-session .flex button{
     width: 100%;
+}
+.first-session .box-33 h6::before{
+    content: "";
+    display: block;
+    padding-top: 50px;
+    border-top: 1px solid lightgray;
+    width: 15%;
 }
 
 /* MAIN SECOND SESSION */
