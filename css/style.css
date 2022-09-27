@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    accent-color: purple;
 }
 
 .flex{
@@ -135,7 +136,9 @@ button{
 }
 
 /* MAIN FIRST SESSION*/
-
+.first-session .check-box > div{
+    padding-right: 40px ;
+}
 .first-session ul li{
     text-decoration: none;
     list-style-type: none;
@@ -253,10 +256,11 @@ main .box-30 button{
 }
 .box-partner img{
    height: 100%;
-   padding: 120px 80px;  
-   
+   padding: 120px 80px;   
 }
-
+.fifth-session .flex .column-partner{
+    background-color: #b4d0e7;
+}
 /* PARTNER PRIMA E TERZA COLONNA */
 .fifth-session .box-partner img{
     filter: invert(1);
@@ -299,6 +303,7 @@ main .box-30 button{
 .second-column{
     padding: 50px 50px 0px;  
     height: 100%;
+    background-color: white;
 }
 .logo{
     width: 180px;
