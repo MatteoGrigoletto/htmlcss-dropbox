@@ -147,7 +147,7 @@ button{
     padding: 30px 0px;
 }
 .first-session span{
-    margin-left: -18px;  
+    margin-left: -20px;  
 }
 .check-box{
     padding: 70px 0px 50px;
@@ -197,6 +197,10 @@ button{
 }
 .orizzontal-box .orizzontal-33{
     text-align: end;
+    padding: 0px 40px;
+}
+.first-session .flex button{
+    width: 100%;
 }
 
 /* MAIN SECOND SESSION */
@@ -238,14 +242,18 @@ main .box-30 button{
 .box-partner{
     width: 50%;
     height: 50%;
+   
 }
 .box-partner img{
    height: 100%;
-   padding: 0px 80px;  
+   padding: 120px 80px;  
+   
 }
 
 /* PARTNER PRIMA E TERZA COLONNA */
-
+.fifth-session .box-partner img{
+    filter: invert(1);
+}
 .designit{
     background-color: #a2d39b ;
     border:15px solid #d1e9cd;
@@ -255,9 +263,6 @@ main .box-30 button{
 }
 .florida{
     background-color: #0093ce;    
-}
-.fix-padding{
-   padding: 140px 80px !important;  /*Forzatura a causa dell'immagine*/
 }
 .topps{
     background-color: #ff1c1c ;
