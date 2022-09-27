@@ -290,7 +290,8 @@ main .box-30 button{
     overflow-y: auto;
 }
 .second-column{
-    padding: 50px;  
+    padding: 50px 50px 0px;  
+    height: 100%;
 }
 .logo{
     width: 180px;
