@@ -44,7 +44,6 @@ footer .footer-column li:hover {
     background-color: rgba(180, 208, 231, 1);
     transition: 2s;
 }
-
 /* ANIMAZIONI */
 
 @keyframes rotate{

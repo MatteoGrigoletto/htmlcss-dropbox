@@ -12,7 +12,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     accent-color: purple;
 }
-
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +97,7 @@ h5{
 
 /* HEADER */
 
-.img-header{
+.box-bottom-header{
     position: relative;
     bottom: -60px;
 }
