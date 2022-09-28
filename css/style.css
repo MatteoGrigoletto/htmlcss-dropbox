@@ -256,9 +256,11 @@ main .box-30 button{
 }
 .box-partner{
     width: 50%;
-    height: 50%; 
-    align-items: center;
-    padding: 0px 80px; 
+    height: 50%;
+    align-items: center;  
+}
+.fifth-session .box-partner img{
+   padding: 0px 80px;
 }
 .fifth-session .flex .column-partner{
     background-color: #b4d0e7;
