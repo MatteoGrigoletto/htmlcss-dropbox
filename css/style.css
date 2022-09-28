@@ -156,7 +156,11 @@ button{
     padding: 70px 0px 50px;
 }
 .main-structure{
-    justify-content: space-between;
+    justify-content: space-between;  
+}
+.main-structure .flex{
+ margin-left: -10px;
+    
 }
 .first-session .box-33{
     background-color: white;
@@ -172,7 +176,7 @@ button{
     padding: 20px 40px;
 }
 .offer-information small{
- display: block;
+    display: block;
 }
 .offer-information > div{
     padding: 30px 0px;
@@ -182,7 +186,7 @@ button{
     padding-top: 30px;
 }
 .orizzontal-box{
-    width: 100%;
+    width: calc(100% - 10px);
     border: 1px solid lightgrey;
     margin-top: 20px;
 }
@@ -205,6 +209,8 @@ button{
 .first-session .flex button{
     width: 100%;
 }
+
+/* DECORAZIONE LINEA FIRST SESSION */
 .first-session .box-33 h6::before{
     content: "";
     display: block;
@@ -247,16 +253,13 @@ main .box-30 button{
 
 .column-partner{
     width: calc(100vw / 3 - 6px);
-    height: calc(100vw / 3);
+    height: calc(100vw / 3); 
 }
 .box-partner{
     width: 50%;
-    height: 50%;
-   
-}
-.box-partner img{
-   height: 100%;
-   padding: 120px 80px;   
+    height: 50%; 
+    align-items: center;
+    padding: 0px 80px; 
 }
 .fifth-session .flex .column-partner{
     background-color: #b4d0e7;
@@ -336,10 +339,12 @@ main .box-30 button{
 }
 .fqa-box{
     padding: 25px 0px;
-    border: 1px 0px;
     border-top: 1px solid black;
+    position: relative; 
+}
+.fqa-box:last-child{
     border-bottom: 1px solid black;
-    position: relative;
+    position: relative; 
 }
 .sixth-session i{
    position: absolute;
